@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9738759B1BFC2EC9006D36FF /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9738759A1BFC2EC9006D36FF /* TableCell.m */; };
+		97DF81301BFA997D000154B0 /* diccionario.txt in Resources */ = {isa = PBXBuildFile; fileRef = 97DF812F1BFA997D000154B0 /* diccionario.txt */; };
 		97FE264E1BFA94F900A0648A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE264D1BFA94F900A0648A /* main.m */; };
 		97FE26511BFA94F900A0648A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE26501BFA94F900A0648A /* AppDelegate.m */; };
 		97FE26541BFA94F900A0648A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE26531BFA94F900A0648A /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		973875991BFC2EC9006D36FF /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		9738759A1BFC2EC9006D36FF /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		97DF812F1BFA997D000154B0 /* diccionario.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diccionario.txt; sourceTree = "<group>"; };
 		97FE26491BFA94F900A0648A /* diccionario1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diccionario1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FE264D1BFA94F900A0648A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97FE264F1BFA94F900A0648A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +106,13 @@
 		97FE264B1BFA94F900A0648A /* diccionario1 */ = {
 			isa = PBXGroup;
 			children = (
+				97DF812F1BFA997D000154B0 /* diccionario.txt */,
 				97FE264F1BFA94F900A0648A /* AppDelegate.h */,
 				97FE26501BFA94F900A0648A /* AppDelegate.m */,
 				97FE26521BFA94F900A0648A /* ViewController.h */,
 				97FE26531BFA94F900A0648A /* ViewController.m */,
+				973875991BFC2EC9006D36FF /* TableCell.h */,
+				9738759A1BFC2EC9006D36FF /* TableCell.m */,
 				97FE26551BFA94F900A0648A /* Main.storyboard */,
 				97FE26581BFA94F900A0648A /* Assets.xcassets */,
 				97FE265A1BFA94F900A0648A /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97FE265C1BFA94F900A0648A /* LaunchScreen.storyboard in Resources */,
+				97DF81301BFA997D000154B0 /* diccionario.txt in Resources */,
 				97FE26591BFA94F900A0648A /* Assets.xcassets in Resources */,
 				97FE26571BFA94F900A0648A /* Main.storyboard in Resources */,
 			);
@@ -275,6 +284,7 @@
 			files = (
 				97FE26541BFA94F900A0648A /* ViewController.m in Sources */,
 				97FE26511BFA94F900A0648A /* AppDelegate.m in Sources */,
+				9738759B1BFC2EC9006D36FF /* TableCell.m in Sources */,
 				97FE264E1BFA94F900A0648A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +511,7 @@
 				97FE26781BFA94F900A0648A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97FE26791BFA94F900A0648A /* Build configuration list for PBXNativeTarget "diccionario1Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +520,7 @@
 				97FE267B1BFA94F900A0648A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97FE267C1BFA94F900A0648A /* Build configuration list for PBXNativeTarget "diccionario1UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +529,7 @@
 				97FE267E1BFA94F900A0648A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
